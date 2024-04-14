@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="vn">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="./templates/upload/resources/logo-web.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <title>Giới thiệu</title>
+    <link rel="stylesheet" href="./templates/css/main.css" />
+
+    <meta name="keywords" content="Từ khóa" />
+    <meta property="og:locale" content="vi_VN" />
+
+    <meta property="url" content="https://gioithieu.html" />
+
+    <link rel="canonical" href="https://gioithieu.html" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Giới thiệu" />
+    <meta property="og:description" content="Tóm tắt" />
+    <meta name="description" content="Tóm tắt" />
+    <meta
+      property="og:image"
+      content="./templates/upload/resources/logo-web.png"
+    />
+    <meta property="og:image:alt" content="Chi tiết" />
+
+    <meta property="og:image:width" content="384" />
+
+    <meta property="og:image:height" content="384" />
+    <meta property="og:site_name" id="sitemap" content="Giới thiệu" />
+  </head>
+  <body>
+    <div class="modal"></div>
+    >
+    <div class="loading"></div>
+    <div class="notifications-container"></div>
+
+    <div class="wrapper">
+      <header class="header">
+        <div class="header__top">
+          <div class="container">
+            <div class="header__top__container">
+              <div class="header__logo__block">
+                <a href="/vn" class="header__logo">
+                  <img
+                    src="./templates/upload/resources/logo-web.png"
+                    alt="logo"
+                  />
+                </a>
+              </div>
+              <div class="header__bg">
+                <div class="header__language">
+                  <div class="header__language__current">
+                    <a href="/vn">
+                      <img
+                        src="./templates/upload/articles/l_274658944_lang-vn.png"
+                        alt="vn.png"
+                      />
+                    </a>
+                  </div>
+                  <div class="header__language__list">
+                    <a href="/vn">
+                      <img
+                        src="./templates/upload/articles/l_274658944_lang-vn.png"
+                        alt="vn.png"
+                      />
+                    </a>
+                    <a href="/en">
+                      <img
+                        src="./templates/upload/articles/l_1720191023_lang-eng.png"
+                        alt="en.png"
+                      />
+                    </a>
+                    <a href="/jp">
+                      <img
+                        src="./templates/upload/articles/l_1455129464_lang-japan.png"
+                        alt="jp.png"
+                      />
+                    </a>
+                  </div>
+                </div>
+                <div class="header__bell">
+                  <div class="header__bell__notification active"></div>
+                  <i class="fa-solid fa-bell header__bell__icon"></i>
+                  <div class="notification">
+                    <img
+                      class="notification__close"
+                      src="./templates/img/close_color.png"
+                      alt="color close"
+                    />
+                    <ul class="notification__list">
+                      <li class="notification__item">
+                        <div class="notification__circle"></div>
+                        <div class="notification__body">
+                          <div class="notification__heading">Thông Báo</div>
+                          <div class="notification__content">
+                            Nộp báo cáo 12/04/2024
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <i class="bi bi-layout-text-sidebar header__bars"></i>
+                <div class="header__drawer">
+                  <img
+                    src="./templates/img/drawer_close.png"
+                    alt="drawer_close"
+                    class="header__drawer__close"
+                  />
+                  <ul class="header__menu">
+                    <li class="header__item active">
+                      <a class="header__link" href="/index.html">Trang Chủ</a>
+                    </li>
+                    <li class="header-item">
+                      <a class="header__link" href="/vn/service.html"
+                        >Dịch Vụ
+                      </a>
+                      <div class="header__dropdown">
+                        <a class="header__link" href="/vn/caphoc.html"
+                          >Cấp học</a
+                        >
+                        <a class="header__link" href="/vn/truonghoc.html"
+                          >Trường học</a
+                        >
+                        <a class="header__link" href="/vn/lophoc.html"
+                          >Lớp học</a
+                        >
+                      </div>
+                    </li>
+
+                    <li class="header__item">
+                      <a class="header__link" href="/vn/gioithieu.html"
+                        >Giới thiệu</a
+                      >
+                    </li>
+
+                    <li class="header__item">
+                      <a class="header__link" href="/vn/tintuc.html">Tin Tức</a>
+                    </li>
+                    <li class="header__item">
+                      <a class="header__link" href="/vn/lienhe.html">Liên Hệ</a>
+                    </li>
+                    <li class="header__item">
+                      <a class="header__link" href="/vn/login.html"
+                        >Đăng Nhập</a
+                      >
+                    </li>
+                  </ul>
+                  <div class="header__drawer__bot">
+                    <img
+                      class="header__drawer__cover"
+                      src="./templates/img/trang-chu-web-chia-se.jpg"
+                      alt="cover"
+                    />
+                    <div class="header__drawer__foot">
+                      <div class="header__socials">
+                        <a href="https://www.facebook.com/">
+                          <img
+                            src="./templates/img/icon-fb.png"
+                            alt="icon-fb"
+                          />
+                        </a>
+                        <a href="https://twitter.com/">
+                          <img
+                            src="./templates/img/icon-twitter.png"
+                            alt="icon-twitter"
+                          />
+                        </a>
+                        <a href="https://www.youtube.com/">
+                          <img
+                            src="./templates/img/icon-ytb.png"
+                            alt="icon-ytb"
+                          />
+                        </a>
+                        <a href="https://www.google.com/">
+                          <img
+                            src="./templates/img/icon-gg.png"
+                            alt="icon-gg"
+                          />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+    </div>
+    <main class="main">
+      <div
+        class="intro"
+        imgae-mobile="./templates/upload/resources/l_1039594050_l_293362797_image_7_(1).png"
+        image-deskop="./templates/img/trang-chu-web-chia-se.jpg"
+      >
+        <div class="container">
+          <div class="intro__container">
+            <div class="intro__sub">Giới Thiệu</div>
+            <div class="intro__heading">
+              TẠI SAO CHÚNG TA CẦN PHẢI "QUẢN LÝ TRƯỜNG HỌC" ?
+            </div>
+            <div class="intro__description">
+              <p>
+                Trường học là một tổ chức, ở đó tiến hành quá trình dạy học.
+                Hoạt động đặc trưng của trường học là hoạt động dạy học. Hoạt
+                động dạy học là hoạt động có tổ chức, có nội dung, có phương
+                pháp và phương tiện, có mục đích, có sự lãnh đạo của nhà GD, có
+                sự hoạt động tích cực, tự giác của người học. Tác giả
+                M.I.Kondacov đã khái quát “Không đòi hỏi một định nghĩa hoàn
+                chỉnh, chúng ta hiểu quản lý nhà trường (công việc nhà trường là
+                một hệ thống xã hội- sư phạm chuyên biệt). <br />
+                <br />
+
+                Hệ thống này đòi hỏi những tác động có ý thức, có kế hoạch và
+                hướng đích của chủ thể quản lý đến tất cả các mặt của đời sống
+                nhà trường, nhằm đảm bảo sự vận hành tối ưu về các mặt xã hội-
+                kinh tế, tổ chức- sư phạm của quá trình dạy- học và GD thế hệ
+                đang lớn lên” [22]. <br />
+                <br />
+
+                Trong thực tiễn Việt Nam, Tác giả Phạm Minh Hạc đã xác định:
+                “quản lý nhà trường là thực hiện đường lối của Đảng trong phạm
+                vi trách nhiệm của mình, tức là đưa nhà trường vận hành theo
+                nguyên lý giáo dục để tiến tới mục tiêu giáo dục, mụctiêu đào
+                tạo đối với ngành giáo dục, với thế hệ trẻ và từng HS”.
+              </p>
+              <img
+                src="/vn/templates/upload/resources/hinhnen_gioithieu_nen1.png"
+                alt="hình nền"
+              />
+              <p>
+                Như vậy, quản lý nhà trường chính là quản lý giáo dục nhưng
+                trong một phạm vi xác định của một đơn vị giáo dục nền tảng, đó
+                là nhà trường. quản lý nhà trường về cơ bản khác với quản lý các
+                lĩnh vực khác.
+                <br />
+                <br />
+                Những tác động của chủ thể quản lý là những tác động của công
+                tác tổ chức sư phạm đến đối tượng quản lý nhằm giải quyết nhiệm
+                vụ giáo dục của nhà trường. Đó là hệ thống tác động có phương
+                hướng, có mục đích, có mối quan hệ qua lại lẫn nhau.
+                <br />
+                <br />
+                Quản lý nhà trường phải vận dụng tất cả các nguyên lý chung của
+                quản lý giáo dục để đẩy mạnh hoạt động của nhà trường theo mục
+                tiêu đào tạo.
+                <br />
+                <br />
+                Quản lý nhà trường là phải quản lý toàn diện nhằm phát triển và
+                hoàn thiện nhân cách của thế hệ trẻ một cách hợp lý, khoa học và
+                hiệu quả, do vậy muốn thực hiện có hiệu quả công tác quản lý
+                giáo dục phải xem xét đến những điều kiện đặc thù của mỗi nhà
+                trường, phải chú trọng thực hiện việc cải tiến công tác quản lý
+                giáo dục đối với nhà trường, nền tảng của hệ thống giáo dục quốc
+                dân.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer__black">
+        <div class="container">
+          <div class="footer__container">
+            <div class="footer__block"></div>
+            <div class="header__drawer__foot">
+              <div class="header__socials">
+                <a href="Link Facebook:">
+                  <img src="/vn/templates/img/icon-fb.png" alt="icon-fb" />
+                </a>
+                <a href="Link Twitter:">
+                  <img
+                    src="/templates/img/icon-twitter.png"
+                    alt="icon-twitter"
+                  />
+                </a>
+                <a href="https://www.youtube.com/">
+                  <img src="/vn/templates/img/icon-ytb.png" alt="icon-ytb" />
+                </a>
+                <a href="Link Google:">
+                  <img src="/vn/templates/img/icon-gg.png" alt="icon-gg" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lity/2.4.1/lity.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.0/ScrollTrigger.min.js"></script>
+  <script src="./templates/js/main.js"></script>
+</html>

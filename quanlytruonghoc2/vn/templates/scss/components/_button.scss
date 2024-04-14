@@ -1,0 +1,22 @@
+.btn {
+  font-size: 16px;
+  height: 40px;
+  padding: 0 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  background-color: $primary-color;
+  border-radius: 100px;
+  color: $white-color;
+  cursor: pointer;
+  transition: all linear 0.3s;
+  &:hover{
+    opacity: 0.8 !important;
+    transform: scale(0.98) !important;
+  }
+  @include desktop{
+    font-size: 24px;
+    padding: 10px 30px;
+  }
+}
